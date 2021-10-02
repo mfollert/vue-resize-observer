@@ -17,6 +17,6 @@ export const ResizeObserverDirective = {
     }
 }
 
-export const VueResponsiveComponents = Vue => {
+export const VueResizeObserver = Vue => {
     Vue.directive("ResizeObserver", ResponsiveDirective)
 }
